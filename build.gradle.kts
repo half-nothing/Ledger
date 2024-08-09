@@ -215,5 +215,5 @@ fun getVersionMetadata(): String {
     }
 
     // No tracking information could be found about the build
-    return "+local"
+    return "+Half_nothing"
 }

@@ -9,6 +9,8 @@
   "text.ledger.footer.page_backward": "<<",
   "text.ledger.footer.page_backward.hover": "上一页",
 
+  "text.ledger.flush.message": "尝试重启数据库写入进程",
+
   "text.ledger.status.queue": "数据库队列状态: %s ",
   "text.ledger.status.queue.busy": "繁忙",
   "text.ledger.status.queue.empty": "闲置",
@@ -50,5 +52,15 @@
   "text.ledger.action.item-remove": "拿取",
   "text.ledger.action.entity-kill": "杀死",
 
-  "text.ledger.network.protocols_mismatched": "协议版本不匹配: 客户端协议版本 %d 服务端版本为 %d"
+  "text.ledger.network.protocols_mismatched": "协议版本不匹配: 客户端协议版本 %d 服务端版本为 %d",
+  "text.ledger.status.db_type": "Database type: %s",
+  "text.ledger.action_message.with": "with",
+  "text.ledger.action.block-change": "changed",
+  "text.ledger.action.item-pick-up": "picked up",
+  "text.ledger.action.item-drop": "dropped",
+  "text.ledger.action.entity-change": "changed",
+  "text.ledger.network.no_mod_info": "Unable to determine mod information for your client mod",
+  "text.ledger.purge.starting": "------ Starting purge ------",
+  "text.ledger.purge.complete": "------ Completed purge ------",
+  "text.ledger.player.result": "%1$s: First joined %2$s. Last joined: %3$s"
 }

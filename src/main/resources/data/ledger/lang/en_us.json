@@ -9,6 +9,8 @@
     "text.ledger.footer.page_backward": "<<",
     "text.ledger.footer.page_backward.hover": "Previous Page",
 
+    "text.ledger.flush.message": "Restart database progress",
+
     "text.ledger.status.queue": "Database Queue: %s",
     "text.ledger.status.queue.busy": "Busy",
     "text.ledger.status.queue.empty": "Empty",

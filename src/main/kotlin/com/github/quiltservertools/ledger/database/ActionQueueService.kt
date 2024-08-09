@@ -34,6 +34,11 @@ object ActionQueueService {
         }
     }
 
+    suspend fun flushQueue() {
+        job.cancel()
+        prepareNextBatch()
+    }
+
     private suspend fun drainBatch() {
         val batch = mutableListOf<ActionType>()
         queue.drainTo(batch, Ledger.config[DatabaseSpec.batchSize])
